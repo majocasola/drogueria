@@ -1,0 +1,19 @@
+$colorNav: rgb(223, 232, 235);
+$colorFooter:rgb(16, 21, 46);
+$colorHeader:rgb(16, 21, 46);
+$colorProducto:rgb(167, 179, 240);
+@mixin btn ($ancho, $alto, $colorBg, $color) {
+    background-color: $colorBg;
+    color: $color;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin titulo ($fuenteSize, $fuenteEstilo, $color) {
+    font-size: $fuenteSize;
+    font-style: $fuenteEstilo;
+    color: $color;
+}

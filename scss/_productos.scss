@@ -1,0 +1,86 @@
+    @import "variables.scss";
+    #contenedor-productos {
+        min-height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(153, 171, 189);
+        background-size: cover;
+    }
+    
+    #producto-cont {
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(153, 171, 189);
+        background-size: cover;
+    }
+    
+    #titulo-productos {
+        min-height: 10vh;
+        padding-bottom: 20px;
+        padding-top: 30px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 0px;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 30px;
+        background-color: rgb(153, 171, 189);
+        h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 25px;
+            h3 {
+                color: rgb(17, 15, 36);
+                font-family: 'Amiri', serif;
+            }
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: left;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+    }
+    
+    .btn {
+        @include btn (10px, 10px, rgb(121, 248, 96), white);
+        font-style: normal;
+        justify-content: center;
+    }
+    
+    .btn:hover {
+        background-color: rgb(25, 126, 221);
+        transition: .3s ease-in-out;
+    }
+    
+    #note {
+        max-width: 50%;
+    }
+    
+    #acce {
+        max-width: 50%;
+    }
+    
+    #cel {
+        max-width: 50%;
+    }
+    
+    #tablet {
+        max-width: 50%;
+    }
+    
+    #titulo-productos-desc {
+        font-style: italic;
+        background-color: rgb(153, 171, 189);
+        text-align: center;
+        justify-content: center;
+        color: rgb(43, 43, 75);
+        font-weight: bold;
+        font-size: 25px;
+    }

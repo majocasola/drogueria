@@ -1,0 +1,8 @@
+@import "variables.scss";
+header {
+    background-color: $colorHeader;
+    p {
+        color: rgb(146, 179, 247);
+    }
+    background-size: cover;
+}

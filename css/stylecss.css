@@ -1,0 +1,261 @@
+@import url(nosotros.css);
+header {
+  background-color: #10152e;
+  background-size: cover; }
+  header p {
+    color: #92b3f7; }
+
+nav {
+  background-color: #dfe8eb;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Amiri', serif; }
+
+ul li {
+  justify-content: center; }
+
+.nav-item {
+  justify-content: center;
+  padding: 1rem;
+  padding-left: 10%; }
+
+.carousel-inner img {
+  height: 95vh;
+  background-size: cover; }
+
+#nosotros-cont {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99abbd;
+  background-size: cover; }
+
+#titulo-nosotros {
+  min-height: 10vh;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+  margin: 0px;
+  font-style: italic;
+  font-weight: bold;
+  background-color: #99abbd;
+  background-size: cover;
+  font-size: 30px; }
+
+#titulo-nosotros-desc {
+  font-style: italic;
+  background-color: #99abbd;
+  text-align: center;
+  justify-content: center;
+  color: #2b2b4b;
+  font-weight: bold;
+  font-size: 25px;
+  background-size: cover; }
+
+#card-bg {
+  background-color: #99abbd; }
+
+#fondo {
+  background-color: #99abbd;
+  background-size: auto; }
+
+#card-profile {
+  max-width: 50%; }
+
+#card-profile2 {
+  max-width: 50%; }
+
+#card-profile3 {
+  max-width: 50%; }
+
+#contenedor-productos {
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99abbd;
+  background-size: cover; }
+
+#producto-cont {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99abbd;
+  background-size: cover; }
+
+#titulo-productos {
+  min-height: 10vh;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #99abbd; }
+  #titulo-productos h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px; }
+    #titulo-productos h2 h3 {
+      color: #110f24;
+      font-family: 'Amiri', serif; }
+    #titulo-productos h2 p {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: left;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px; }
+
+.btn {
+  background-color: #79f860;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 10px;
+  height: 10px;
+  font-style: normal;
+  justify-content: center; }
+
+.btn:hover {
+  background-color: #197edd;
+  transition: .3s ease-in-out; }
+
+#note {
+  max-width: 50%; }
+
+#acce {
+  max-width: 50%; }
+
+#cel {
+  max-width: 50%; }
+
+#tablet {
+  max-width: 50%; }
+
+#titulo-productos-desc {
+  font-style: italic;
+  background-color: #99abbd;
+  text-align: center;
+  justify-content: center;
+  color: #2b2b4b;
+  font-weight: bold;
+  font-size: 25px; }
+
+.servicios {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99abbd;
+  background-size: cover; }
+
+#titulo-servicio {
+  min-height: 10vh;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  font-style: italic;
+  font-weight: bold;
+  background-color: #99abbd;
+  font-size: 30px; }
+
+#titulo-servicios-desc {
+  font-style: italic;
+  background-color: #99abbd;
+  text-align: center;
+  justify-content: center;
+  color: #2b2b4b;
+  font-weight: bold;
+  font-size: 25px; }
+
+h6 {
+  font-size: 30px;
+  font-style: normal;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center; }
+
+tr th,
+tr td {
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+  font-style: initial;
+  text-align: center; }
+
+#contenedor-contacto {
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99abbd;
+  background-size: cover; }
+
+#titulo-contacto-desc {
+  text-align: center;
+  justify-content: center;
+  color: #2b2b4b;
+  font-weight: bold;
+  font-size: 25px; }
+
+form {
+  max-width: 600px;
+  padding: 1rem;
+  border: solid;
+  background-color: #99b0be;
+  color: #252325; }
+
+form div {
+  text-align: left;
+  margin: 0 0 1rem 0;
+  padding: 1rem; }
+  form div label {
+    color: black; }
+
+.btn {
+  background-color: #0f0f70;
+  color: #f3f1f1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 80px;
+  height: 50px;
+  font-style: normal;
+  font-size: 15px; }
+
+.form-control {
+  font-size: 15px;
+  color: black;
+  font-weight: bold; }
+
+footer {
+  background-size: cover;
+  background-color: #10152e;
+  color: white;
+  height: 22vh; }
+
+.redes-sociales a {
+  color: white;
+  margin-left: 5px;
+  font-size: 20px; }
+
+.redes-sociales a:hover {
+  color: #0051ff; }
+
+html {
+  font-size: 62.5%; }
+
+* {
+  padding: 0;
+  margin: 0; }

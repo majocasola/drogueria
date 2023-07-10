@@ -1,0 +1,16 @@
+footer {
+    background-size: cover;
+    background-color: $colorFooter;
+    color: white;
+    height: 22vh;
+}
+
+.redes-sociales a {
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.redes-sociales a:hover {
+    color: rgb(0, 81, 255);
+}

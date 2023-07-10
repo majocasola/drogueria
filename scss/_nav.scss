@@ -1,0 +1,20 @@
+@import "variables.scss";
+nav {
+    background-color: $colorNav;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Amiri', serif;
+}
+
+ul {
+    li {
+        justify-content: center;
+    }
+}
+
+.nav-item {
+    justify-content: center;
+    padding: 1rem;
+    padding-left: 10%;
+}

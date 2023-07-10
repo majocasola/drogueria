@@ -1,0 +1,55 @@
+@import "variables.scss";
+#nosotros-cont {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 171, 189);
+    background-size: cover;
+}
+
+#titulo-nosotros {
+    min-height: 10vh;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(153, 171, 189);
+    background-size: cover;
+    font-size: 30px;
+}
+
+#titulo-nosotros-desc {
+    font-style: italic;
+    background-color: rgb(153, 171, 189);
+    text-align: center;
+    justify-content: center;
+    color: rgb(43, 43, 75);
+    font-weight: bold;
+    font-size: 25px;
+    background-size: cover;
+}
+
+#card-bg {
+    background-color: rgb(153, 171, 189);
+}
+
+#fondo {
+    background-color: rgb(153, 171, 189);
+    background-size: auto;
+}
+
+#card-profile {
+    max-width: 50%;
+}
+
+#card-profile2 {
+    max-width: 50%;
+}
+
+#card-profile3 {
+    max-width: 50%;
+}

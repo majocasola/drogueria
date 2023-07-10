@@ -1,0 +1,48 @@
+@import "variables.scss";
+#contenedor-contacto {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 171, 189);
+    background-size: cover;
+}
+
+#titulo-contacto-desc {
+    text-align: center;
+    justify-content: center;
+    color: rgb(43, 43, 75);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+form {
+    max-width: 600px;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(153, 176, 190);
+    color: rgb(37, 35, 37);
+}
+
+form {
+    div {
+        text-align: left;
+        margin: 0 0 1rem 0;
+        padding: 1rem;
+        label {
+            color: black
+        }
+    }
+}
+
+.btn {
+    @include btn(80px, 50px, rgb(15, 15, 112), rgb(243, 241, 241));
+    font-style: normal;
+    font-size: 15px;
+}
+
+.form-control {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}

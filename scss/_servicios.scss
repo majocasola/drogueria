@@ -1,0 +1,47 @@
+@import "variables.scss";
+.servicios {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 171, 189);
+    background-size: cover;
+}
+
+#titulo-servicio {
+    min-height: 10vh;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(153, 171, 189);
+    font-size: 30px;
+}
+
+#titulo-servicios-desc {
+    font-style: italic;
+    background-color: rgb(153, 171, 189);
+    text-align: center;
+    justify-content: center;
+    color: rgb(43, 43, 75);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h6 {
+    @include titulo (30px, normal, black);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+tr {
+    th,
+    td {
+        @include titulo (20px, normal, black);
+        font-style: initial;
+        text-align: center;
+    }
+}
